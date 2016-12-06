@@ -25,6 +25,12 @@ header .navbar-inverse .navbar-nav > li > a:hover{
     background: rgba(244, 240, 187, 0.44);
     top: 1.4px;
 }
+header .navbar-inverse .navbar-toggle{
+    border: 2px solid rgba(172, 166, 166, 0.61);
+}
+header .navbar-inverse .navbar-toggle:hover{
+    background: rgba(146, 148, 150, 0.47); 
+}
 header h4{
     color: #f4f0bb;
     margin-top: 0;
