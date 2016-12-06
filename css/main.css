@@ -4,7 +4,6 @@
 }
 body{
     text-align: center;
-    
 }
 /* --------HEADER-------- */
 .oscuro{
@@ -17,10 +16,14 @@ header{
 }
 header .navbar-inverse{
     background: rgb(218, 44, 56);
-    border-bottom: #f4f0bb;
+    border-bottom: 1px solid rgba(244, 240, 187, 0.49);
 }
 header .navbar-inverse .navbar-nav > li > a {
     color: #f4f0bb;
+}
+header .navbar-inverse .navbar-nav > li > a:hover{
+    background: rgba(244, 240, 187, 0.44);
+    top: 1.4px;
 }
 header h4{
     color: #f4f0bb;
