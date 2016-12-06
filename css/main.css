@@ -1,0 +1,69 @@
+/* --------GLOBAL-------- */
+*{
+    font-family: Merriweather;
+}
+body{
+    text-align: center;
+    
+}
+/* --------HEADER-------- */
+.oscuro{
+    background: rgba(0, 0, 0, 0.53);
+}
+header{
+    background-image: url(../img/creamy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header .navbar-inverse{
+    background: rgb(218, 44, 56);
+    border-bottom: #f4f0bb;
+}
+header .navbar-inverse .navbar-nav > li > a {
+    color: #f4f0bb;
+}
+header h4{
+    color: #f4f0bb;
+    margin-top: 0;
+}
+header .frase{
+    margin: 250px 0;
+    color: #f4f0bb;
+}
+/* --------SECTION CREAM------- */
+.cream {
+    padding: 30px 0;
+    background: #f4f0bb;
+}
+ body h3, p{
+    color: #da2c38;
+}
+/* --------SECTION CREAMY------- */
+.txt{
+   background: #da2c38;
+    padding: 50px 0;
+}
+.txt h3{
+    color: #f4f0bb;
+}
+.txt p{
+    color: #f4f0bb;
+}
+/* --------SECTION ICONS------- */
+.icons{
+    background: #f4f0bb; 
+    padding: 30px 0 80px;
+}
+.icons .icono{
+    font-size: 70px;
+    color: #da2c38;
+}
+/* --------FOOTER------- */
+footer{
+    background: #da2c38;
+    text-align: left;
+}
+footer p{
+    color: #f4f0bb;
+    margin: 15px 0 20px;
+}
